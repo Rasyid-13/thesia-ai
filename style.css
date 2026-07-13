@@ -1,0 +1,148 @@
+body{
+
+    background:#f8fbff;
+
+}
+
+section{
+
+    min-height:80vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+}
+.card{
+
+    transition:0.3s;
+
+    border-radius:20px;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.min-vh-75{
+
+    min-height:75vh;
+
+}
+
+
+.btn-primary{
+
+    background:linear-gradient(
+    135deg,
+    #2563EB,
+    #7C3AED
+    );
+
+    border:none;
+
+}
+
+
+.btn-primary:hover{
+
+    opacity:0.9;
+
+}
+
+
+.card{
+
+    border-radius:20px;
+
+}
+.feature-card{
+
+    transition:0.3s;
+
+}
+
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+}
+.workflow-item{
+
+    border-radius:20px;
+
+    transition:0.3s;
+
+}
+
+
+.workflow-item:hover{
+
+    transform:translateY(-5px);
+
+}
+.progress{
+
+    height:10px;
+
+    border-radius:20px;
+
+}
+
+
+.progress-bar{
+
+    background:linear-gradient(
+    135deg,
+    #2563EB,
+    #7C3AED
+    );
+
+}
+#harga .card{
+
+    border-radius:20px;
+
+}
+
+
+#harga .border-primary{
+
+    border-width:2px !important;
+
+}
+footer{
+
+    margin-top:50px;
+
+}
+
+
+footer h5{
+
+    font-weight:700;
+
+}
+@media(max-width:768px){
+
+    .min-vh-75{
+
+        min-height:auto;
+        padding-top:40px;
+        padding-bottom:40px;
+
+    }
+
+}
